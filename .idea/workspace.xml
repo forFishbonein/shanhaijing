@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shanhaijing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="山海经2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +13,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27Z7dLz0WQfauwSa7tFgcwZBXrt" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
@@ -29,6 +25,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,7 +44,30 @@
       <option name="presentableId" value="Default" />
       <updated>1649515841133</updated>
       <workItem from="1649515845697" duration="337000" />
+      <workItem from="1649516202377" duration="1605000" />
     </task>
+    <task id="LOCAL-00001" summary="山海经">
+      <created>1649516331743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516331743</updated>
+    </task>
+    <task id="LOCAL-00002" summary="山海经2">
+      <created>1649516403574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516403574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="山海经2">
+      <created>1649516462347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516462347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -49,24 +75,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="山海经" />
+    <MESSAGE value="山海经2" />
+    <option name="LAST_COMMIT_MESSAGE" value="山海经2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649516159323">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649518542396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649516159323" />
-    <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649515879446">
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649518542396" />
+    <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649516216316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="422" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1649515879446" />
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649516150791">
+    <state x="422" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1649516216316" />
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649516516691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649516150791" />
-    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1649515977706">
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649516516691" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649516490650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1649515977706" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649516490650" />
+    <state x="352" y="114" key="git4idea.merge.GitPullDialog" timestamp="1649518702682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="352" y="114" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1649518702682" />
+    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1649516239258">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1649516239258" />
     <state x="472" y="132" key="svn.repositoryBrowser" timestamp="1649515955922">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
