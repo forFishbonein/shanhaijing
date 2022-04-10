@@ -32,7 +32,7 @@
 
 .container1 p span {
     color: brown;
-    font-family: 'CUTE';
+    /* font-family: 'Aa方萌 (非商业使用)'; */
 }
 
 .container2 {
@@ -71,9 +71,9 @@
 
 .container3>div>img {
     width: 120px;
-    height: 70px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+    height: 70px; 
+    cursor: pointer; /*鼠标手型改变*/
+    transition: 0.3s ease-in-out; /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
 }
 
 .container3>div>img:hover {
