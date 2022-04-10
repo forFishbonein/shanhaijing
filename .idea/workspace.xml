@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/css/jiao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/button/start.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/imags/button/start.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao2.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao3.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/i.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/i.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/j.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/j.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotie.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotie.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27Z7dLz0WQfauwSa7tFgcwZBXrt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shanhaijing/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="" />
+      <created>1649515841133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649515841133</updated>
+      <workItem from="1649515845697" duration="337000" />
+      <workItem from="1649516202377" duration="2378000" />
+      <workItem from="1649519687728" duration="36000" />
+      <workItem from="1649519735758" duration="998000" />
+      <workItem from="1649520751899" duration="172000" />
+      <workItem from="1649575903022" duration="2648000" />
+    </task>
+    <task id="LOCAL-00001" summary="山海经">
+      <created>1649516331743</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516331743</updated>
+    </task>
+    <task id="LOCAL-00002" summary="山海经2">
+      <created>1649516403574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516403574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="山海经2">
+      <created>1649516462347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516462347</updated>
+    </task>
+    <task id="LOCAL-00004" summary="山海经3">
+      <created>1649518916199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649518916199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="山海经4">
+      <created>1649575926849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649575926849</updated>
+    </task>
+    <task id="LOCAL-00006" summary="山海经5">
+      <created>1649576007341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649576007341</updated>
+    </task>
+    <task id="LOCAL-00007" summary="山海经6">
+      <created>1649580233243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649580233243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="山海经" />
+    <MESSAGE value="山海经2" />
+    <MESSAGE value="山海经3" />
+    <MESSAGE value="山海经4" />
+    <MESSAGE value="山海经5" />
+    <MESSAGE value="山海经6" />
+    <option name="LAST_COMMIT_MESSAGE" value="山海经6" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649580231880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649580231880" />
+    <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649516216316">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1649516216316" />
+    <state x="217" y="0" key="SettingsEditor" timestamp="1649520738944">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="217" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1649520738944" />
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649580264661">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649580264661" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649577054258">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649577054258" />
+    <state x="352" y="114" key="git4idea.merge.GitPullDialog" timestamp="1649518702682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="352" y="114" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1649518702682" />
+    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1649516239258">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="241" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1649516239258" />
+    <state x="472" y="132" key="svn.repositoryBrowser" timestamp="1649515955922">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="472" y="132" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1649515955922" />
+  </component>
+</project>
