@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="山海经2">
+    <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shanhaijing/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,7 +55,10 @@
       <option name="presentableId" value="Default" />
       <updated>1649515841133</updated>
       <workItem from="1649515845697" duration="337000" />
-      <workItem from="1649516202377" duration="1605000" />
+      <workItem from="1649516202377" duration="2378000" />
+      <workItem from="1649519687728" duration="36000" />
+      <workItem from="1649519735758" duration="998000" />
+      <workItem from="1649520751899" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="山海经">
       <created>1649516331743</created>
@@ -67,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649516462347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="山海经3">
+      <created>1649518916199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649518916199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,25 +98,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="山海经" />
     <MESSAGE value="山海经2" />
-    <option name="LAST_COMMIT_MESSAGE" value="山海经2" />
+    <MESSAGE value="山海经3" />
+    <option name="LAST_COMMIT_MESSAGE" value="山海经3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649518542396">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649518915309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649518542396" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649518915309" />
     <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649516216316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1649516216316" />
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649516516691">
+    <state x="217" y="0" key="SettingsEditor" timestamp="1649520738944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649516516691" />
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649516490650">
+    <state x="217" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1649520738944" />
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649518936175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649516490650" />
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649518936175" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649520767004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649520767004" />
     <state x="352" y="114" key="git4idea.merge.GitPullDialog" timestamp="1649518702682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
