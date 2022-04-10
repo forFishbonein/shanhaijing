@@ -90,7 +90,6 @@
     /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
 }
 
-
 .container3>div>img:hover {
     transform: scale(1.2);
 }
@@ -102,4 +101,16 @@
     transform: translateX(-50%);
     bottom: 100px;
     cursor: pointer;
+}
+
+#correct {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+}
+
+#wrong {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
 }

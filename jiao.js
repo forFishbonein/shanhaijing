@@ -4,9 +4,6 @@ var ao = 0;
 var pazzle = 0;
 
 
-console.log(123)
-
-
 $(document).ready(function() {
     $("#Puzzle1").click(function() {
         $("#Puzzle1").animate({ left: '100px', top: '-55px' });
@@ -97,16 +94,23 @@ $(document).ready(function() {
     });
 });
 
+
+
 $(document).ready(function() {
+    $("#correct").hide();
+    $("#wrong").hide();
     $("#submit").click(function() {
 
         if (j == 1 && i == 1 && ao == 1 && pazzle == 1) {
-            window.alert("回答正确！")
+
+            $("#correct").show();
+            $("#wrong").hide();
 
 
         } else {
-            window.alert("回答错误！")
 
+            $("#correct").hide();
+            $("#wrong").show();
         }
 
 
