@@ -91,9 +91,9 @@
 }
 
 
-/* .container3>div>img:hover {
+.container3>div>img:hover {
     transform: scale(1.2);
-} */
+}
 
 #submit img {
     position: absolute;

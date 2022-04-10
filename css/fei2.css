@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 390px;
+    height: 844px;
+    margin: 0px auto;
+    background: url('../imags/background/back3.png') no-repeat;
+    background-size: 390px 844px;
+    /* border: 1px solid rgb(240, 7, 7); */
+    position: relative;
+    border-radius: 30px;
+}
+
+.container1 {
+    position: absolute;
+    left: 90px;
+    top: 180px;
+    /* border: 1px solid rgb(240, 7, 7); */
+}
+
+.container1 p {
+    font-family: 'SONG';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+.container1 p span {
+    color: brown;
+    font-family: 'SONG';
+}
+
+.container2 {
+    position: absolute;
+    left: 105px;
+    top: 350px;
+    /* border: 1px solid rgb(240, 7, 7); */
+}
+
+.container2>div>img {
+    width: 180px;
+    height: 200px;
+}
+
+
+.container3 {
+    position: absolute;
+    left: 35px;
+    bottom: 100px;
+    /* border: 1px solid rgb(240, 7, 7); */
+}
+.container3 p {
+    font-family: 'SONG';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+.container3 p span {
+    color: brown;
+    font-family: 'SONG';
+}
