@@ -46,6 +46,7 @@
     width: 180px;
     height: 200px;
 }
+
 .container2>div:last-child>p {
     font-family: 'SONG';
     font-size: 5px;
@@ -55,35 +56,50 @@
     letter-spacing: 5px;
 }
 
-
 .container3 {
     position: absolute;
     left: 35px;
-    bottom: 100px;
+    bottom: 150px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
 
-.container3>div{
+.container3>div {
     float: left;
     /* border: 1px solid rgb(240, 7, 7); */
     margin-left: 8px;
 }
-.container3>div:first-child{
+
+.container3>div:first-child {
     margin-left: 0px;
 }
-.container3>div:nth-child(2){
+
+.container3>div:nth-child(2) {
     margin-left: 0px;
 }
-.container3>div:last-child{
+
+.container3>div:last-child {
     margin-left: 0px;
 }
-.container3>div>img {
+
+.container3 .Puzzle {
+    position: relative;
     width: 50px;
-    height: 40px; 
-    cursor: pointer; /*鼠标手型改变*/
-    transition: 0.3s ease-in-out; /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
+    height: 40px;
+    cursor: pointer;
+    /*鼠标手型改变*/
+    /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
 }
+
 
 /* .container3>div>img:hover {
     transform: scale(1.2);
 } */
+
+#submit img {
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    cursor: pointer;
+}
