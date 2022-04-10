@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/jiao.css">
     <style>
@@ -7,6 +8,7 @@
             font-family: 'Aa方萌 (非商业使用)';
             src: url('font-style/字体管家方萌.ttf');
         }
+        
         @font-face {
             font-family: 'SONG';
             src: url('font-style/AaHeiSong.ttf');
@@ -17,6 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jiao.js"></script>
+
 <body>
     <div id="container">
         <div class="container1">
@@ -28,16 +33,20 @@
         </div>
         <div class="container2">
             <div><img src="imags/jiao.png" alt=""></div>
-            <div><p>点击图像可查看提示</p></div>
+            <div>
+                <p>点击图像可查看提示</p>
+            </div>
         </div>
         <div class="container3">
-            <div><img src="imags/font/j.png" alt=""></div>
-            <div><img src="imags/font/ao1.png" alt=""></div>
-            <div><img src="imags/font/ao2.png" alt=""></div>
-            <div><img src="imags/font/ao3.png" alt=""></div>
-            <div><img src="imags/font/ao4.png" alt=""></div>
-            <div><img src="imags/font/i.png" alt=""></div>
+            <div><img id="Puzzle1" class="Puzzle" src="imags/font/j.png" alt=""></div>
+            <div><img id="Puzzle2" class="Puzzle" src="imags/font/ao1.png" alt=""></div>
+            <div><img id="Puzzle3" class="Puzzle" src="imags/font/ao2.png" alt=""></div>
+            <div><img id="Puzzle4" class="Puzzle" src="imags/font/ao3.png" alt=""></div>
+            <div><img id="Puzzle5" class="Puzzle" src="imags/font/ao4.png" alt=""></div>
+            <div><img id="Puzzle6" class="Puzzle" src="imags/font/i.png" alt=""></div>
         </div>
+
+        <div id="submit"><img src="./imags/button/start.PNG" alt=""></div>
     </div>
 </body>
 
