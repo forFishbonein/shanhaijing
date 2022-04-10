@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/css/jiao2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/tuo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/zhi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imags/background/back0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imags/font/x1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imags/font/x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imags/font/x3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiao2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jiao.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jiao.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-style/字体管家方萌.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imags/background/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/background/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiao.html" beforeDir="false" afterPath="$PROJECT_DIR$/jiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jiao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/button/start.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/imags/button/start.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao2.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao3.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/i.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/i.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/j.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/j.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotie.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +42,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jiao.html">
+  <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shanhaijing/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="jiao.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/shanhaijing/jiao.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.jiao.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -79,7 +67,7 @@
       <workItem from="1649519687728" duration="36000" />
       <workItem from="1649519735758" duration="998000" />
       <workItem from="1649520751899" duration="172000" />
-      <workItem from="1649575903022" duration="4003000" />
+      <workItem from="1649575903022" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="山海经">
       <created>1649516331743</created>
@@ -130,14 +118,7 @@
       <option name="project" value="LOCAL" />
       <updated>1649580233243</updated>
     </task>
-    <task id="LOCAL-00008" summary="山海经7">
-      <created>1649583344781</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1649583344781</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,14 +132,13 @@
     <MESSAGE value="山海经4" />
     <MESSAGE value="山海经5" />
     <MESSAGE value="山海经6" />
-    <MESSAGE value="山海经7" />
-    <option name="LAST_COMMIT_MESSAGE" value="山海经7" />
+    <option name="LAST_COMMIT_MESSAGE" value="山海经6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649583343795">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649580231880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649583343795" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649580231880" />
     <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649516216316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -167,14 +147,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="217" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1649520738944" />
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649583360892">
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649580264661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649583360892" />
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649590750365">
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649580264661" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649577054258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649590750365" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1649577054258" />
     <state x="352" y="114" key="git4idea.merge.GitPullDialog" timestamp="1649518702682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
