@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#container{
+
+#container {
     width: 390px;
     height: 844px;
     margin: 0px auto;
@@ -11,14 +12,16 @@
     /* border: 1px solid rgb(240, 7, 7); */
     position: relative;
     border-radius: 30px;
-} 
-.container1{
+}
+
+.container1 {
     position: absolute;
     left: 65px;
     top: 180px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
-.container1 p{
+
+.container1 p {
     font-family: 'SONG';
     font-size: 20px;
     color: black;
@@ -26,40 +29,53 @@
     line-height: 30px;
     letter-spacing: 5px;
 }
-.container1 p span{
+
+.container1 p span {
     color: brown;
     font-family: 'CUTE';
 }
-.container2{
+
+.container2 {
     position: absolute;
     left: 105px;
     top: 350px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
-.container2>div>img{
+
+.container2>div>img {
     width: 180px;
     height: 160px;
 }
 
-.container3{
+.container3 {
     position: absolute;
     left: 120px;
     bottom: 80px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
-.container3>div:first-child{
+
+.container3>div:first-child {
     /* border: 1px solid rgb(240, 7, 7); */
     margin-left: 10px;
 }
-.container3>div:nth-child(2){
+
+.container3>div:nth-child(2) {
     /* border: 1px solid rgb(240, 7, 7); */
     margin-left: 10px;
 }
-.container3>div:last-child{
+
+.container3>div:last-child {
     /* border: 1px solid rgb(240, 7, 7); */
     margin-left: 10px;
 }
-.container3>div>img{
+
+.container3>div>img {
     width: 120px;
     height: 70px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.container3>div>img:hover {
+    transform: scale(1.2);
 }
