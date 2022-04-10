@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f463df-cc9e-49e9-9931-9882d703c138" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/taotie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/taotie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-style/Aa方萌 (非商业使用).ttf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jiao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/button/start.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/imags/button/start.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao2.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao3.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/ao4.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/ao4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/i.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/i.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imags/font/j.png" beforeDir="false" afterPath="$PROJECT_DIR$/imags/font/j.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotie.html" beforeDir="false" afterPath="$PROJECT_DIR$/taotie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +67,7 @@
       <workItem from="1649519687728" duration="36000" />
       <workItem from="1649519735758" duration="998000" />
       <workItem from="1649520751899" duration="172000" />
-      <workItem from="1649575903022" duration="1983000" />
+      <workItem from="1649575903022" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="山海经">
       <created>1649516331743</created>
@@ -107,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649576007341</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="山海经6">
+      <created>1649580233243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649580233243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,13 +131,14 @@
     <MESSAGE value="山海经3" />
     <MESSAGE value="山海经4" />
     <MESSAGE value="山海经5" />
-    <option name="LAST_COMMIT_MESSAGE" value="山海经5" />
+    <MESSAGE value="山海经6" />
+    <option name="LAST_COMMIT_MESSAGE" value="山海经6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649576006352">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1649580231880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649576006352" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1649580231880" />
     <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1649516216316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -135,10 +147,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="217" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1649520738944" />
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649576019490">
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2" timestamp="1649580264661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649576019490" />
+    <state x="234" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1649580264661" />
     <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649577054258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
