@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 390px;
+    height: 844px;
+    margin: 0px auto;
+    background: url("../imags/background/back.png") no-repeat;
+    background-size: 390px 844px;
+    /* border: 1px solid rgb(240, 7, 7); */
+    position: relative;
+    border-radius: 30px;
+}    
+.container1{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+}
+.container1>div:first-child{
+    position: absolute;
+    left: 85px;
+    top: 165px;
+    z-index: 3;
+
+}
+.container1>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+    /* box-shadow:0px 0px 5px 5px #f4f4f4; */
+
+}
+.container1>div:first-child>img{
+    width: 120px;
+    height: 130px;
+}
+
+.container1>div:last-child{
+    position: absolute;
+    left: 60px;
+    top: 130px;
+}
+.container1>div:last-child>img{
+    width: 30px;
+    height: 65px;
+}
+.container1>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+
+.container2{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+.container2>div:first-child{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    /* border: 1px salmon solid; */
+}
+.container2>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container2>div:first-child>img{
+    width: 120px;
+    height: 160px;
+    /* border: 1px salmon solid; */
+}
+.container2>div:last-child{
+    position: absolute;
+    left:-7px;
+    top: -20px;
+    z-index: 5;
+    /* border: 1px salmon solid; */
+}
+.container2>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container2>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+
+
+.container3{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.container3>div:first-child{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    /* border: 1px salmon solid; */
+}
+.container3>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container3>div:first-child>img{
+    width: 160px;
+    height: 180px;
+    /* border: 1px salmon solid; */
+}
+
+.container3>div:last-child{
+    position: absolute;
+    right:5px;
+    top:-10px;
+    /* border: 1px salmon solid; */
+}
+.container3>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container3>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+
+
+.container4{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+.container4>div:first-child{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    /* border: 1px salmon solid;*/
+}
+.container4>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container4>div:first-child>img{
+    width: 180px;
+    height: 150px;
+    /* border: 1px salmon solid; */
+}
+
+.container4>div:last-child{
+    position: absolute;
+    right:20px;
+    top: -30px;
+    /* border: 1px salmon solid; */
+}
+.container4>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container4>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+
+
+.container5{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    top:330px;
+    left: 100px;
+}
+.container5>div:first-child{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* border: 1px salmon solid; */
+    z-index: 6;
+}
+.container5>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container5>div:first-child>img{
+    width: 170px;
+    height: 160px;
+    /* border: 1px salmon solid; */
+}
+
+.container5>div:last-child{
+    position: absolute;
+    left:145px;
+    bottom: 60px;
+    /* border: 1px salmon solid; */
+    z-index: 10;
+}
+.container5>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container5>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+
+.container6{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    bottom: 215px;;
+    left: 5px;
+}
+.container6>div:first-child{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* border: 1px salmon solid; */
+    z-index: 10;
+}
+.container6>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container6>div:first-child>img{
+    width: 170px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+}
+
+.container6>div:last-child{
+    position: absolute;
+    left:5px;
+    bottom: 70px;
+    /* border: 1px salmon solid; */
+    z-index: 13;
+}
+.container6>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container6>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+
+
+.container7{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    bottom: 210px;;
+    right: 20px;
+}
+.container7>div:first-child{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    /* border: 1px salmon solid; */
+    z-index: 12;
+}
+.container7>div:first-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container7>div:first-child>img{
+    width: 180px;
+    height: 150px;
+    /* border: 1px salmon solid; */
+}
+
+.container7>div:last-child{
+    position: absolute;
+    right:25px;
+    bottom: 115px;
+    /* border: 1px salmon solid; */
+    z-index: 15;
+}
+.container7>div:last-child>img:hover{
+    transform: translate(0px,-10px);
+}
+.container7>div:last-child>img{
+    width: 30px;
+    height: 65px;
+    /* border: 1px salmon solid; */
+}
+.container8{
+    width: 200px;
+    height: 200px;
+    /* border: 1px salmon solid; */
+    position: absolute;
+    bottom:-50px;;
+    right: 70px;
+}
+.container8>div:first-child>a>img:hover{
+    transform: translate(0px,-10px);
+}
+.container8>div:first-child>a>img{
+    width: 150px;
+    height: 60px;
+    /* border: 1px salmon solid; */
+}

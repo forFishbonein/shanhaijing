@@ -16,7 +16,7 @@
 
 .container1 {
     position: absolute;
-    left: 45px;
+    left: 60px;
     top: 180px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
@@ -37,7 +37,7 @@
 
 .container2 {
     position: absolute;
-    left: 105px;
+    left: 110px;
     top: 400px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
@@ -50,7 +50,7 @@
 .container2>div:last-child>p {
     font-family: 'CUTE';
     font-size: 5px;
-    font-weight: 50;
+    font-weight: 800;
     color: black;
     text-align: center;
     line-height: 30px;
@@ -72,12 +72,15 @@
 
 .container3>div:first-child {
     margin-left: 0px;
+    margin-top: 2px;
 }
 
 .container3>div:nth-child(2) {
     margin-left: 0px;
 }
-
+.container3>div:nth-child(5) {
+    margin-top:2px;
+}
 .container3>div:last-child {
     margin-left: 0px;
 }
@@ -85,7 +88,7 @@
 .container3 .Puzzle {
     position: relative;
     width: 50px;
-    height: 40px;
+    height: 45px;
     cursor: pointer;
     /*鼠标手型改变*/
     /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
