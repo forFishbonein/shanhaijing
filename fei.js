@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#correct").hide();
     $("#wrong").hide();
     $("#fei1").click(function() {
-        fei = 1
+        fei = 0
 
         if (fei) {
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
     });
 
     $("#fei3").click(function() {
-        fei = 0
+        fei = 1
 
         if (fei) {
 
