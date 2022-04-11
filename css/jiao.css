@@ -103,14 +103,11 @@
     cursor: pointer;
 }
 
-#correct {
-    width: 100px;
-    height: 50px;
-    background-color: aqua;
-}
-
+#correct,
 #wrong {
-    width: 100px;
-    height: 50px;
-    background-color: rgb(255, 0, 0);
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 500px;
 }

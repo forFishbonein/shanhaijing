@@ -103,14 +103,14 @@ $(document).ready(function() {
 
         if (j == 1 && i == 1 && ao == 1 && pazzle == 1) {
 
-            $("#correct").show();
-            $("#wrong").hide();
+            $("#correct").fadeIn();
+            $("#wrong").fadeOut();
 
 
         } else {
 
-            $("#correct").hide();
-            $("#wrong").show();
+            $("#correct").fadeOut();
+            $("#wrong").fadeIn();
         }
 
 
