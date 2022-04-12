@@ -1,11 +1,29 @@
-var fei = 0
+var zhi = 0
 $(document).ready(function() {
     $("#correct").hide();
     $("#wrong").hide();
-    $("#fei1").click(function() {
-        fei = 0
+    $("#zhi1").click(function() {
+        zhi = 1
 
-        if (fei) {
+        if (zhi) {
+
+            $("#correct").fadeIn();
+            $("#wrong").fadeOut();
+            $("#correct").fadeOut(2000);
+
+        } else {
+
+            $("#correct").fadeOut();
+            $("#wrong").fadeIn();
+            $("#wrong").fadeOut(2000);
+        }
+
+
+    });
+    $("#zhi2").click(function() {
+        zhi = 0
+
+        if (zhi) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
@@ -21,30 +39,11 @@ $(document).ready(function() {
 
 
     });
-    $("#fei2").click(function() {
-        fei = 0
 
-        if (fei) {
+    $("#zhi3").click(function() {
+        zhi = 0
 
-            $("#correct").fadeIn();
-            $("#wrong").fadeOut();
-            $("#correct").fadeOut(2000);
-
-
-        } else {
-
-            $("#correct").fadeOut();
-            $("#wrong").fadeIn();
-            $("#wrong").fadeOut(2000);
-        }
-
-
-    });
-
-    $("#fei3").click(function() {
-        fei = 1
-
-        if (fei) {
+        if (zhi) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();

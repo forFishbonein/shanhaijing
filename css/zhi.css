@@ -71,11 +71,28 @@
 
 .container3>div>img {
     width: 230px;
-    height: 70px; 
-    cursor: pointer; /*鼠标手型改变*/
-    transition: 0.3s ease-in-out; /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
+    height: 70px;
+    cursor: pointer;
+    /*鼠标手型改变*/
+    transition: 0.3s ease-in-out;
+    /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
 }
 
 .container3>div>img:hover {
     transform: scale(1.2);
+}
+
+#correct,
+#wrong {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 500px;
+}
+
+.back img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
 }

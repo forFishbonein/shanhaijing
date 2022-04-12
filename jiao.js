@@ -105,12 +105,14 @@ $(document).ready(function() {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
+            $("#correct").fadeOut(2000);
 
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
+            $("#wrong").fadeOut(2000);
         }
 
 

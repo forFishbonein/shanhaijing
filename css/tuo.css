@@ -78,9 +78,11 @@
 .container3>div:nth-child(2) {
     margin-left: 0px;
 }
+
 .container3>div:nth-child(5) {
-    margin-top:2px;
+    margin-top: 2px;
 }
+
 .container3>div:last-child {
     margin-left: 0px;
 }
@@ -94,7 +96,6 @@
     /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
 }
 
-
 .container3>div>img:hover {
     transform: scale(1.2);
 }
@@ -105,5 +106,11 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 100px;
+    cursor: pointer;
+}
+
+.back img {
+    position: absolute;
+    width: 80px;
     cursor: pointer;
 }
