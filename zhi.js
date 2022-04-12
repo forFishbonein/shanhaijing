@@ -1,61 +1,60 @@
-var fei = 0
+var zhi = 0
 $(document).ready(function() {
     $("#correct").hide();
     $("#wrong").hide();
-    $("#fei1").click(function() {
-        fei = 0
+    $("#zhi1").click(function() {
+        zhi = 1
 
-        if (fei) {
+        if (zhi) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(2000);
-
+            $("#correct").fadeOut(3000);
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(2000);
+            $("#wrong").fadeOut(3000);
         }
 
 
     });
-    $("#fei2").click(function() {
-        fei = 0
+    $("#zhi2").click(function() {
+        zhi = 0
 
-        if (fei) {
+        if (zhi) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(2000);
+            $("#correct").fadeOut(3000);
 
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(2000);
+            $("#wrong").fadeOut(3000);
         }
 
 
     });
 
-    $("#fei3").click(function() {
-        fei = 1
+    $("#zhi3").click(function() {
+        zhi = 0
 
-        if (fei) {
+        if (zhi) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(2000);
+            $("#correct").fadeOut(3000);
 
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(2000);
+            $("#wrong").fadeOut(3000);
         }
 
 

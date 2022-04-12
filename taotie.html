@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="taotie.js"></script>
 
 <head>
     <link rel="stylesheet" href="css/taotie.css">
@@ -8,6 +10,7 @@
             font-family: 'Aa方萌 (非商业使用)';
             src: url('font-style/字体管家方萌.ttf');
         }
+        
         @font-face {
             font-family: 'SONG';
             src: url('font-style/AaHeiSong.ttf');
@@ -32,10 +35,13 @@
             <div><img src="imags/taotie.png" alt=""></div>
         </div>
         <div class="container3">
-            <div><img src="imags/font/b1.png" alt=""></div>
-            <div><img src="imags/font/b2.png" alt=""></div>
-            <div><img src="imags/font/b3.png" alt=""></div>
+            <div id="taotie1"><img src="imags/font/b1.png" alt=""></div>
+            <div id="taotie2"><img src="imags/font/b2.png" alt=""></div>
+            <div id="taotie3"><img src="imags/font/b3.png" alt=""></div>
         </div>
+        <div id="correct"><img src="./imags/button/true.png" alt=""></div>
+        <div id="wrong"><img src="./imags/button/false.png" alt=""></div>
     </div>
 </body>
+
 </html>

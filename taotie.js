@@ -1,11 +1,29 @@
-var fei = 0
+var taotie = 0
 $(document).ready(function() {
     $("#correct").hide();
     $("#wrong").hide();
-    $("#fei1").click(function() {
-        fei = 0
+    $("#taotie1").click(function() {
+        taotie = 0
 
-        if (fei) {
+        if (taotie) {
+
+            $("#correct").fadeIn();
+            $("#wrong").fadeOut();
+            $("#correct").fadeOut(2000);
+
+        } else {
+
+            $("#correct").fadeOut();
+            $("#wrong").fadeIn();
+            $("#wrong").fadeOut(2000);
+        }
+
+
+    });
+    $("#taotie2").click(function() {
+        taotie = 1
+
+        if (taotie) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
@@ -21,30 +39,11 @@ $(document).ready(function() {
 
 
     });
-    $("#fei2").click(function() {
-        fei = 0
 
-        if (fei) {
+    $("#taotie3").click(function() {
+        taotie = 0
 
-            $("#correct").fadeIn();
-            $("#wrong").fadeOut();
-            $("#correct").fadeOut(2000);
-
-
-        } else {
-
-            $("#correct").fadeOut();
-            $("#wrong").fadeIn();
-            $("#wrong").fadeOut(2000);
-        }
-
-
-    });
-
-    $("#fei3").click(function() {
-        fei = 1
-
-        if (fei) {
+        if (taotie) {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
