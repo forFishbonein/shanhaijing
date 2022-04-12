@@ -47,13 +47,13 @@
     height: 200px;
 }
 
-
 .container3 {
     position: absolute;
     left: 35px;
     bottom: 100px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
+
 .container3 p {
     font-family: 'SONG';
     font-size: 20px;
@@ -66,4 +66,10 @@
 .container3 p span {
     color: brown;
     font-family: 'SONG';
+}
+
+.back img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
 }

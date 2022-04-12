@@ -90,3 +90,9 @@
     transform: translateX(-50%);
     bottom: 500px;
 }
+
+.back img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+}

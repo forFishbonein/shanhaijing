@@ -9,13 +9,13 @@ $(document).ready(function() {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(3000);
+            $("#correct").fadeOut(2000);
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(3000);
+            $("#wrong").fadeOut(2000);
         }
 
 
@@ -27,14 +27,14 @@ $(document).ready(function() {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(3000);
+            $("#correct").fadeOut(2000);
 
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(3000);
+            $("#wrong").fadeOut(2000);
         }
 
 
@@ -47,14 +47,14 @@ $(document).ready(function() {
 
             $("#correct").fadeIn();
             $("#wrong").fadeOut();
-            $("#correct").fadeOut(3000);
+            $("#correct").fadeOut(2000);
 
 
         } else {
 
             $("#correct").fadeOut();
             $("#wrong").fadeIn();
-            $("#wrong").fadeOut(3000);
+            $("#wrong").fadeOut(2000);
         }
 
 
