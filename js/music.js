@@ -4,7 +4,7 @@ window.onload = function() {
     var music = document.getElementById('music');
     var rallback = document.getElementById('rallback');
 
-    window.onclick = function() {
+    rallback.onclick = function() {
         if(flag == 1) {
             music.pause(); /*音乐关闭*/
             flag = 0;

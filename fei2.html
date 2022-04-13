@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/dangan3.css">
+    <link rel="stylesheet" href="css/fei2.css">
     <style>
         @font-face {
             font-family: 'SONG';
@@ -15,6 +15,23 @@
 </head>
 <body>
     <div id="container">
+        <!--       右上角音乐及图标-->
+		<div class="u-audio">
+			<audio src="music/异新音乐 - 瑞龙吟.flac" autoplay="autoplay" id="music" preload="auto" loop="loop"></audio>
+			<div id="page1">
+				<img id="rallback" src="music/img/m.png" style="width: 60px;height: 60px;"></img>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/music.js"></script>
+                <!--人物音乐及图标-->
+		<div class="u-audio2">
+			<audio src="music/saying/蜚2.m4a" id="music2" autoplay="autoplay" preload="auto" loop="loop"></audio>
+			<div id="page2">
+				<img id="rallback2" src="music/img/l.png"></img>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/saying.js"></script>
+        
         <div class="container1">
             <div><img src="imags/word/fei.png" alt=""></div>
             <div><img src="imags/head/fei.png" alt=""></div>
@@ -37,6 +54,7 @@
                 <div><p>流言蜚语</p></div>
             </div>
         </div>
+        <a href="select.html" class="back"><img src="./imags/button/back.png" alt="">
     </div>
 </body>
 </html>

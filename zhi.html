@@ -25,12 +25,29 @@
 
 <body>
     <div id="container">
+                <!--       右上角音乐及图标-->
+		<div class="u-audio">
+			<audio src="music/异新音乐 - 瑞龙吟.flac" autoplay="autoplay" id="music" preload="auto" loop="loop"></audio>
+			<div id="page1">
+				<img id="rallback" src="music/img/m.png" style="width: 60px;height: 60px;"></img>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/music.js"></script>
+                <!--人物音乐及图标-->
+		<div class="u-audio2">
+			<audio src="music/saying/豸1.m4a" id="music2" autoplay="autoplay" preload="auto" loop="loop"></audio>
+			<div id="page2">
+				<img id="rallback2" src="music/img/l.png"></img>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/saying.js"></script>
+        
         <div class="container1">
             <p>啥？你喊我啊</p>
-            <p>你好！我是豸</p>
+            <p>你好！我是<span>豸</span></p>
             <p>你说我长的像蚯蚓？！</p>
             <p>那我要考考你了</p>
-            <p>你知道“豸”的本义</p>
+            <p>你知道<span>“豸”</span>的本义</p>
             <p>是哪两类动物吗？</p>
         </div>
         <div class="container2">
@@ -44,7 +61,7 @@
         <div id="correct"><img src="./imags/button/true.png" alt=""></div>
         <div id="wrong"><img src="./imags/button/false.png" alt=""></div>
         <a href="select.html" class="back"><img src="./imags/button/back.png" alt=""></div>
-
+        <a href="zhi2.html" class="go"><img src="./imags/button/go.png" alt="">
     </div>
 </body>
 

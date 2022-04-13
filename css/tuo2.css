@@ -1,3 +1,5 @@
+@import url(music.css);
+@import url(saying2.css);
 *{
     margin: 0;
     padding: 0;
@@ -77,7 +79,7 @@
 .container2_1>div:last-child{
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 35px;
 }
 .container2_1>div:last-child>p{
     font-size: 20px;
@@ -117,7 +119,7 @@
 .container2_2>div:last-child{
     position: absolute;
     top: 20px;
-    right: 90px;
+    right: 80px;
 }
 .container2_2>div:last-child>p{
     font-size: 20px;
@@ -169,42 +171,10 @@
     margin-right: 13px;
     margin-top: 5px;
 }
-
-.container2_4{
-    margin-left: 40px;
-    padding: auto;
-    width: 320px;
-    height: 90px;
-    background: url("../imags/background/a1.png") no-repeat;
-    background-size: 310px 90px; /*必须设置大小*/
-    position: relative;
-}
-.container2_4>div:first-child{
+.back img {
     position: absolute;
-    top: 20px;
-    left: 10px;
-}
-.container2_4>div:first-child>p{
-    font-size: 32px;
-    font-family: 'SONG';
-    font-weight: 400;
-    color: white;
-    line-height: 40px;
-    letter-spacing: 8px;
-    margin-left: 18px;
-    margin-top: 5px;
-}
-.container2_4>div:last-child{
-    position: absolute;
-    top: 20px;
-    right: 60px;
-}
-.container2_4>div:last-child>p{
-    font-size: 20px;
-    font-family: '楷体';
-    color: white;
-    line-height: 40px;
-    /* letter-spacing: 5px; */
-    margin-right: 22px;
-    margin-top: 5px;
+    left: 5px;
+    top: 0px;
+    width: 80px;
+    cursor: pointer;
 }

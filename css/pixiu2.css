@@ -1,3 +1,5 @@
+@import url(music.css);
+@import url(saying2.css);
 *{
     margin: 0;
     padding: 0;
@@ -207,4 +209,11 @@
     /* letter-spacing: 5px; */
     margin-right: 22px;
     margin-top: 5px;
+}
+.back img {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 80px;
+    cursor: pointer;
 }

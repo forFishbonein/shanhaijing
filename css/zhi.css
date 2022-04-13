@@ -1,4 +1,9 @@
-* {
+@import url(music.css);
+@import url(saying.css);
+.u-audio2{
+    right: 90px;
+}
+*{
     margin: 0;
     padding: 0;
 }
@@ -93,6 +98,15 @@
 
 .back img {
     position: absolute;
+    top: 0px;
+    left: 5px;
     width: 80px;
     cursor: pointer;
+}
+.go img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    bottom: -230px;
+    right: 440px;
 }

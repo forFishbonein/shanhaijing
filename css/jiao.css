@@ -1,3 +1,8 @@
+@import url(music.css);
+@import url(saying.css);
+.u-audio2{
+    top: 430px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -49,11 +54,26 @@
 
 .container2>div:last-child>p {
     font-family: 'SONG';
-    font-size: 5px;
+    font-size: 15px;
     color: black;
     text-align: center;
     line-height: 30px;
     letter-spacing: 5px;
+}
+.container2>div:first-child>div>img{
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+}
+.container2>div:first-child>div{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    /* border: 1px saddlebrown solid; */
+}
+.container2>div:first-child:active>div{
+    display: block;
 }
 
 .container3 {
@@ -99,7 +119,7 @@
     width: 150px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 80px;
     cursor: pointer;
 }
 
@@ -114,6 +134,15 @@
 
 .back img {
     position: absolute;
+    top: 0px;
+    left: 5px;
     width: 80px;
     cursor: pointer;
+}
+.go img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    bottom: 0px;
+    right: 10px;
 }

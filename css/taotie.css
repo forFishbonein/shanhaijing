@@ -1,4 +1,6 @@
 @import url(music.css);
+@import url(saying.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -94,6 +96,15 @@
 
 .back img {
     position: absolute;
+    top: 0px;
+    left: 5px;
     width: 80px;
     cursor: pointer;
+}
+.go img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    bottom: 0px;
+    right: 10px;
 }

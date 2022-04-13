@@ -1,3 +1,5 @@
+@import url(music.css);
+@import url(saying2.css);
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@
     position: absolute;
 }
 .container1>div:first-child{
-    top: 190px;
+    top: 185px;
     left: 50px;
 }
 .container1>div:last-child{
@@ -29,7 +31,7 @@
 }
 .container1>div:first-child>img{
     width: 110px;
-    height: 130px;
+    height: 140px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -62,22 +64,22 @@
 .container2_1>div:first-child{
     position: absolute;
     top: 20px;
-    left: 50px;
+    left: 40px;
 }
 .container2_1>div:first-child>p{
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'SONG';
     font-weight: 400;
     color: white;
     line-height: 40px;
-    letter-spacing: 8px;
+    letter-spacing: 0px;
     margin-left: 18px;
     margin-top: 5px;
 }
 .container2_1>div:last-child{
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 75px;
 }
 .container2_1>div:last-child>p{
     font-size: 20px;
@@ -117,7 +119,7 @@
 .container2_2>div:last-child{
     position: absolute;
     top: 20px;
-    right: 90px;
+    right: 80px;
 }
 .container2_2>div:last-child>p{
     font-size: 20px;
@@ -158,7 +160,7 @@
 .container2_3>div:last-child{
     position: absolute;
     top: 20px;
-    right: 45px;
+    right: 50px;
 }
 .container2_3>div:last-child>p{
     font-size: 20px;
@@ -170,41 +172,17 @@
     margin-top: 5px;
 }
 
-.container2_4{
-    margin-left: 40px;
-    padding: auto;
-    width: 320px;
-    height: 90px;
-    background: url("../imags/background/a1.png") no-repeat;
-    background-size: 310px 90px; /*必须设置大小*/
-    position: relative;
-}
-.container2_4>div:first-child{
+.back img {
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 0px;
+    left: 5px;
+    width: 80px;
+    cursor: pointer;
 }
-.container2_4>div:first-child>p{
-    font-size: 32px;
-    font-family: 'SONG';
-    font-weight: 400;
-    color: white;
-    line-height: 40px;
-    letter-spacing: 8px;
-    margin-left: 18px;
-    margin-top: 5px;
-}
-.container2_4>div:last-child{
+.go img {
     position: absolute;
-    top: 20px;
-    right: 30px;
-}
-.container2_4>div:last-child>p{
-    font-size: 20px;
-    font-family: '楷体';
-    color: white;
-    line-height: 40px;
-    /* letter-spacing: 5px; */
-    margin-right: 22px;
-    margin-top: 5px;
+    width: 80px;
+    cursor: pointer;
+    bottom: -230px;
+    right: 440px;
 }

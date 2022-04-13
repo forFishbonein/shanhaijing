@@ -9,9 +9,9 @@
 }
 #page1 #rallback {
 	/*css3动画无限制的旋转*/
-	-webkit-animation: music_disc 4s linear infinite;a
+	-webkit-animation: music_disc 4s linear infinite;
 	animation: music_disc 4s linear infinite;
-	/*-webkit-animation-direction:alternate;*/
+	/* -webkit-animation-direction:alternate; */
 	/*//平滑的过渡---反方向运动*/
 }
 
