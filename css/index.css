@@ -11,7 +11,11 @@
     border-radius: 30px;
 }
 
-.container2 {}
+.container2 {
+    position: absolute;
+    top: 150px;
+    animation: tittlemove alternate infinite 3s ease-in-out;
+}
 
 .container2 img {
     width: 390px;
@@ -30,4 +34,14 @@
     width: 70px;
     bottom: 290px;
     left: 40px;
+}
+
+@keyframes tittlemove {
+    0% {}
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
 }
