@@ -107,6 +107,6 @@
     position: absolute;
     width: 80px;
     cursor: pointer;
-    bottom: -230px;
-    right: 440px;
+    bottom: 0px;
+    right: 10px;
 }

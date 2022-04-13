@@ -84,3 +84,13 @@
     width: 80px;
     cursor: pointer;
 }
+
+#word{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-family: 'SONG';
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
