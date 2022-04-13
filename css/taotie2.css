@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 390px;
+    height: 844px;
+    margin: 0px auto;
+    background: url('../imags/background/back3.png') no-repeat;
+    background-size: 390px 844px;
+    /* border: 1px solid rgb(240, 7, 7); */
+    position: relative;
+    border-radius: 30px;
+}
+
+#taotie {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 200px;
+    width: 100px;
+    height: 96px;
+}
+
+#dou {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 300px;
+    width: 50px;
+    height: 50px;
+}
+
+#wall {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 200px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.311);
+}
+
+.back img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+}
