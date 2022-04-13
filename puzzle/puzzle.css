@@ -1,0 +1,148 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.positioner {
+    margin: 0 auto;
+    position: relative;
+    width: 390px;
+    height: 844px;
+    border-radius: 30px;
+    background: url('../imags/background/back.png') no-repeat;
+}
+
+.container {
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.gameArea {
+    height: 333px;
+    /* 75*4 + 5*5 + 8*1 */
+    width: 333px;
+    font-size: 0;
+    /* 去除inline-block间隙 */
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.gameArea div div {
+    background-image: url('res/0.jpg');
+    background-size: 400%;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.row1 .block {
+    margin-top: 5px;
+}
+
+.block {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    line-height: 75px;
+    transition: 0.2s;
+    background-size: 300px 300px;
+}
+
+.without {
+    display: none;
+}
+
+#block1 {
+    background-position: 0 0;
+}
+
+#block2 {
+    background-position: -75px 0;
+}
+
+#block3 {
+    background-position: -150px 0;
+}
+
+#block4 {
+    background-position: -225px 0;
+}
+
+#block5 {
+    background-position: 0 -75px;
+}
+
+#block6 {
+    background-position: -75px -75px;
+}
+
+#block7 {
+    background-position: -150px -75px;
+}
+
+#block8 {
+    background-position: -225px -75px;
+}
+
+#block9 {
+    background-position: 0 -150px;
+}
+
+#block10 {
+    background-position: -75px -150px;
+}
+
+#block11 {
+    background-position: -150px -150px;
+}
+
+#block12 {
+    background-position: -225px -150px;
+}
+
+#block13 {
+    background-position: 0 -225px;
+}
+
+#block14 {
+    background-position: -75px -225px;
+}
+
+#block15 {
+    background-position: -150px -225px;
+}
+
+.gameImg {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.gameImg img {
+    border: 1px solid black;
+    height: 333px;
+    width: 333px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.footer button {
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(100, 136, 255), rgb(64, 76, 180));
+    margin: 0 10px;
+    height: 40px;
+    width: 90px;
+}
+
+.footer button:hover {
+    opacity: 0.8;
+}
