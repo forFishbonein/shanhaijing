@@ -59,7 +59,7 @@
 
 .container3 {
     position: absolute;
-    left: 35px;
+    left: 20px;
     bottom: 50px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
@@ -89,8 +89,8 @@
 
 .container3 .Puzzle {
     position: relative;
-    width: 50px;
-    height: 45px;
+    width: 55px;
+    height: 35px;
     cursor: pointer;
     /*鼠标手型改变*/
     /*过渡时间：持续的时间  规定以慢速开始和结束，先加速后减速效果*/
@@ -119,9 +119,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 90px;
     width: 150px;
     height: 150px;
-    background: url(../imags/backtuo.png);
-    background-size: 100%;
+    border: 2px solid black;
 }
