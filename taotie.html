@@ -2,7 +2,6 @@
 <html lang="en">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="taotie.js"></script>
-
 <head>
     <link rel="stylesheet" href="css/taotie.css">
     <style>
@@ -24,7 +23,14 @@
 
 <body>
     <div id="container">
-
+        <!--       右上角音乐及图标-->
+		<div class="u-audio">
+			<audio src="music/异新音乐 - 瑞龙吟.flac" autoplay="autoplay" id="music" preload="auto" loop="loop"></audio>
+			<div id="page1">
+				<img id="rallback" src="music/img/m.png" style="width: 60px;height: 60px;"></img>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/music.js"></script>
         <div class="container1">
             <p>你好呀！</p>
             <p>我叫<span style="font-family: 'SONG';">tāotiè</span></p>
@@ -42,9 +48,8 @@
         </div>
         <div id="correct"><img src="./imags/button/true.png" alt=""></div>
         <div id="wrong"><img src="./imags/button/false.png" alt=""></div>
-        <a href="select.html" class="back"><img src="./imags/button/back.png" alt=""></div>
-
-    </div>
+        <a href="select.html" class="back"><img src="./imags/button/back.png" alt="">
+        </div>
 </body>
 
 </html>

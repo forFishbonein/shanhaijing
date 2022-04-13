@@ -1,0 +1,35 @@
+.u-audio{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+#music{
+	width: 20px;
+	height: 20px;
+}
+#page1 #rallback {
+	/*css3动画无限制的旋转*/
+	-webkit-animation: music_disc 4s linear infinite;a
+	animation: music_disc 4s linear infinite;
+	/*-webkit-animation-direction:alternate;*/
+	/*//平滑的过渡---反方向运动*/
+}
+
+/*  page1旋转暂停 animation-play-state属性 当你想在动画执行过程中暂停，并且接下来让动画接着执行。这时CSS的animation-play-state属性是非常有用的。你可以可以通过JavaScript像这样更改CSS(注意你的前缀)： element.style.webkitAnimationPlayState="paused";
+element.style.webkitAnimationPlayState="running";
+ */
+
+/*css3动画的旋转*/
+@-webkit-keyframes music_disc {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+}
