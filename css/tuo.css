@@ -60,7 +60,7 @@
 .container3 {
     position: absolute;
     left: 35px;
-    bottom: 150px;
+    bottom: 50px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
 
@@ -113,4 +113,15 @@
     position: absolute;
     width: 80px;
     cursor: pointer;
+}
+
+#wall {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+    background: url(../imags/backtuo.png);
+    background-size: 100%;
 }
