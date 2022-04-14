@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+.title{
+    position: absolute;
+    top:0px;
+    left:90px;
+}
+.title>img{
+    width: 200px;
+    height: 100px;
+}
 .positioner {
     margin: 0 auto;
     position: relative;
@@ -137,12 +145,21 @@
 
 .footer button {
     color: white;
-    background-image: linear-gradient(to bottom, rgb(100, 136, 255), rgb(64, 76, 180));
+    background-image: linear-gradient(to bottom, rgb(235, 116, 20), rgb(163, 159, 105));
     margin: 0 10px;
     height: 40px;
     width: 90px;
+    font-family: 'SONG';
+    font-size: 13px;
 }
 
 .footer button:hover {
     opacity: 0.8;
+}
+.go img {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    width: 90px;
+    cursor: pointer;
 }

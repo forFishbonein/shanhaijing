@@ -291,14 +291,13 @@
     height: 200px;
     /* border: 1px salmon solid; */
     position: absolute;
-    bottom:-50px;;
-    right: 70px;
+    bottom:-35px;;
+    right: 155px;
 }
 .container8>div:first-child>a>img:hover{
     transform: translate(0px,-10px);
 }
 .container8>div:first-child>a>img{
-    width: 150px;
-    height: 60px;
+
     /* border: 1px salmon solid; */
 }
