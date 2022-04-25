@@ -291,14 +291,30 @@
     height: 200px;
     /* border: 1px salmon solid; */
     position: absolute;
-    bottom:-50px;;
-    right: 70px;
+    bottom:-35px;;
+    right: 155px;
 }
 .container8>div:first-child>a>img:hover{
     transform: translate(0px,-10px);
 }
-.container8>div:first-child>a>img{
-    width: 150px;
-    height: 60px;
-    /* border: 1px salmon solid; */
+/* .container8>div:first-child>a>img{
+
+     border: 1px salmon solid; 
+} */
+.container9{
+    position: absolute;
+    top:150px;
+    left:10px;
+    z-index: 20;
+    padding-top: 80px;
+    padding-bottom: 50px; 
+    display: none;
+}
+.container9>img{
+    width: 370px;
+    height: 300px;
+
+}
+#container:hover>div:last-child{
+    display: block;
 }

@@ -14,10 +14,9 @@
     position: relative;
     border-radius: 30px;
 }  
-.container1{
-    width: 500px;
-    height: 400px; 
-}
+/* .container1{
+    position: relative;
+} */
 .container1>div{
     position: absolute;
 }
@@ -51,7 +50,7 @@
 
 .container2{
     position: relative;
-    top:-38px
+    top:360px;
 }
 .container2_1{
     margin: auto;
@@ -181,8 +180,8 @@
 }
 .go img {
     position: absolute;
-    width: 80px;
+    width: 100px;
     cursor: pointer;
-    bottom: -230px;
-    right: 440px;
+    bottom: 5px;
+    right: 5px;
 }

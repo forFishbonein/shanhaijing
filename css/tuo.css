@@ -21,7 +21,7 @@
 
 .container1 {
     position: absolute;
-    left: 60px;
+    left: 35px;
     top: 180px;
     /* border: 1px solid rgb(240, 7, 7); */
 }
@@ -139,7 +139,7 @@
 }
 .go img {
     position: absolute;
-    width: 80px;
+    width: 100px;
     cursor: pointer;
     bottom: 0px;
     right: 10px;

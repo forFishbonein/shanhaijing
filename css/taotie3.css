@@ -19,9 +19,9 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 200px;
-    width: 100px;
-    height: 96px;
+    bottom: 160px;
+    width: 130px;
+    height: 120px;
 }
 
 #dou,
@@ -35,24 +35,24 @@
 }
 
 #dou {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     left: 70%;
     bottom: 250px;
 }
 
 #dou2 {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     left: 20%;
-    bottom: 350px;
+    bottom: 330px;
 }
 
 #dou3 {
     width: 50px;
     height: 50px;
     left: 66%;
-    bottom: 550px;
+    bottom: 530px;
 }
 
 #dou4 {
@@ -73,9 +73,9 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 200px;
+    bottom: 150px;
     width: 300px;
-    height: 400px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.311);
 }
 
@@ -85,15 +85,26 @@
     cursor: pointer;
 }
 
+#word{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-family: 'SONG';
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
 #eat {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 150px;
-    width: 35px;
-    height: 35px;
-    background-color: orange;
-    border-radius: 50%;
+    bottom: 70px;
+}
+
+#eat>img{
+    width: 140px;
+    height: 50px;
 }
 
 #full {
@@ -103,7 +114,9 @@
     transform: translateX(-50%);
     bottom: 500px;
     color: orange;
-    font-family: 'Aa方萌 (非商业使用)';
-    font-size: 30px;
+    font-family: 'SONG';
+    font-size: 25px;
     font-weight: 500;
+    text-align: center;
+    line-height: 30px;
 }

@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="icon" href="../imags/tao.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="puzzle.js" type="text/javascript"></script>
     <link href="puzzle.css" type="text/css" rel="stylesheet" />
-    <title>Puzzle</title>
+    <style>
+        @font-face {
+            font-family: 'SONG';
+            src: url('../font-style/AaHeiSong.ttf');
+        }
+    </style>
+    <title>Mountains and Seas Sutra</title>
 </head>
 
 <body>
     <div class="positioner">
-
+    <!--右上角音乐及图标-->
+    <div class="u-audio">
+        <audio src="../music/bmxh.mp3" autoplay="autoplay" id="music" preload="auto" loop="loop"></audio>
+        <div id="page1">
+            <img id="rallback" src="../music/img/m.png" style="width: 60px;height: 60px;"></img>
+        </div>
+    </div>
+    <a href="../end.html" class="go"><img src="../imags/button/next.png" alt=""/></a>
+    <div class="title"><img src="../imags/button/title.png" alt=""></div>
         <div class="middle">
             <div class="container">
                 <div class="gameArea">
@@ -52,7 +66,5 @@
             <button class="change">换只小异兽</button>
         </div>
     </div>
-
 </body>
-
 </html>

@@ -270,3 +270,18 @@ img {
 #button {
     transition: 0.1s cubic-bezier(.24, 1.87, .28, 2.55);
 }
+
+.back img {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 70px;
+    cursor: pointer;
+}
+.go img {
+    position: absolute;
+    width: 100px;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+}

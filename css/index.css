@@ -13,7 +13,7 @@
 
 .container2 {
     position: absolute;
-    top: 150px;
+    top: 70px;
     animation: tittlemove alternate infinite 3s ease-in-out;
 }
 
@@ -21,22 +21,57 @@
     width: 390px;
 }
 
+.word{
+    position: absolute;
+    top:330px;
+    left:-31px;
+}
+.word>img{
+    width:450px;
+    height: 350px;
+    animation: tittlemove3 alternate infinite 1.5s ease-in-out;
+}
+
 .container3 img {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    bottom: 200px;
+    transform: translate(-50%);
+    bottom: 50px;
     cursor: pointer;
+    animation: tittlemove2 alternate infinite 4s ease-in-out;
+
 }
 
 .container4 img {
     position: absolute;
     width: 70px;
-    bottom: 290px;
+    bottom: 140px;
     left: 40px;
 }
 
 @keyframes tittlemove {
+    0% {}
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes tittlemove2 {
+    0% {
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translate(-50%,-5px);
+    }
+    100% {
+        transform: translate(-50%,5px);
+    }
+}
+
+@keyframes tittlemove3 {
     0% {}
     50% {
         transform: translateY(-5px);
