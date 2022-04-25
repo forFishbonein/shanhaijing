@@ -1,4 +1,17 @@
+let audioPlay = document.getElementById('music')
+
+audioPlay.play()
+
+setTimeout(() => {
+    audioPlay.pause()
+    audioPlay.load()
+}, 10)
+function autoplaymusic() {
+    document.getElementById('music').play()
+}
+autoplaymusic();
 window.onload = function() {
+
     // 这里使用了微信自带的WeixinJSBridgeReady事件
     document.addEventListener('WeixinJSBridgeReady', function() {
         document.getElementById('music').play()
@@ -10,7 +23,7 @@ window.onload = function() {
     var flag = 1; //开启音乐
     var music = document.getElementById('music');
     var rallback = document.getElementById('rallback');
-    music.play();
+
     rallback.onclick = function() {
         if(flag == 1) {
             music.pause(); /*音乐关闭*/
