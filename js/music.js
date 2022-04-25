@@ -1,16 +1,12 @@
-let audioPlay = document.getElementById('music')
-
-audioPlay.play()
-
-setTimeout(() => {
-    audioPlay.pause()
-    audioPlay.load()
-}, 10)
-function autoplaymusic() {
-    document.getElementById('music').play()
-}
-autoplaymusic();
 window.onload = function() {
+    let audioPlay = document.getElementById('music')
+
+    audioPlay.play()
+
+    setTimeout(() => {
+        audioPlay.pause()
+        audioPlay.load()
+    }, 10)
 
     // 这里使用了微信自带的WeixinJSBridgeReady事件
     document.addEventListener('WeixinJSBridgeReady', function() {
