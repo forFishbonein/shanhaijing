@@ -1,4 +1,10 @@
-﻿body {
+﻿@import url(../css/music.css);
+.u-audio{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+body {
     margin: 0;
     padding: 0;
 }
@@ -159,7 +165,7 @@
 .go img {
     position: absolute;
     top: 10px;
-    left: 290px;
-    width: 90px;
+    left: 285px;
+    width: 100px;
     cursor: pointer;
 }

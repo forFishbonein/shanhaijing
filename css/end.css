@@ -297,7 +297,24 @@
 .container8>div:first-child>a>img:hover{
     transform: translate(0px,-10px);
 }
-.container8>div:first-child>a>img{
+/* .container8>div:first-child>a>img{
 
-    /* border: 1px salmon solid; */
+     border: 1px salmon solid; 
+} */
+.container9{
+    position: absolute;
+    top:150px;
+    left:10px;
+    z-index: 20;
+    padding-top: 80px;
+    padding-bottom: 50px; 
+    display: none;
+}
+.container9>img{
+    width: 370px;
+    height: 300px;
+
+}
+#container:hover>div:last-child{
+    display: block;
 }

@@ -1,9 +1,16 @@
 window.onload = function() {
+    // 这里使用了微信自带的WeixinJSBridgeReady事件
+    document.addEventListener('WeixinJSBridgeReady', function() {
+        document.getElementById('music').play()
+    })
+    document.addEventListener('WeixinJSBridgeReady', function() {
+        document.getElementById('music2').play()
+    })
     /*右上角音乐及图标*/
     var flag = 1; //开启音乐
     var music = document.getElementById('music');
     var rallback = document.getElementById('rallback');
-
+    music.play();
     rallback.onclick = function() {
         if(flag == 1) {
             music.pause(); /*音乐关闭*/
@@ -16,22 +23,17 @@ window.onload = function() {
         }
     }
 
-    // /*不允许有多个onload*/
-    // /*控制选项卡切换*/
-    // var myTab = document.getElementById("tab"); //整个div
-    // var myUl = myTab.getElementsByTagName("ul")[0]; //一个节点
-    // var myLi = myUl.getElementsByTagName("li"); //数组
-    // var myDiv = myTab.getElementsByTagName("div"); //数组
+    var flag2 = 1; //开启音乐
+    var music2 = document.getElementById('music2');
+    var rallback2 = document.getElementById('rallback2');
 
-    // for(var i = 0; i < myLi.length; i++) {
-    //     myLi[i].index = i;
-    //     myLi[i].onclick = function() {
-    //         for(var j = 0; j < myLi.length; j++) {
-    //             myLi[j].className = "off";
-    //             myDiv[j].className = "hide";
-    //         }
-    //         this.className = "on";
-    //         myDiv[this.index].className = "show";
-    //     }
-    // }
-}
+    rallback2.onclick = function() {
+        if(flag2 == 1) {
+            music2.pause(); /*音乐关闭*/
+            flag2 = 0;
+        } else {
+            music2.play(); /*音乐开启*/
+            flag2 = 1;
+        }
+    }
+ }

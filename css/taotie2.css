@@ -220,8 +220,8 @@
 }
 .go img {
     position: absolute;
-    width: 80px;
+    width: 100px;
     cursor: pointer;
-    bottom: 0px;
-    right: 10px;
+    bottom: 5px;
+    right: 5px;
 }

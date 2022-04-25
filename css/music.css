@@ -3,10 +3,10 @@
     top: 0px;
     right: 10px;
 }
-#music{
+/* #music{
 	width: 20px;
 	height: 20px;
-}
+} */
 #page1 #rallback {
 	/*css3动画无限制的旋转*/
 	-webkit-animation: music_disc 4s linear infinite;
