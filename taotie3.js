@@ -12,3 +12,24 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $("#full").hide();
+    $("#eat").click(function() {
+
+
+        $("#dou").fadeOut();
+        $("#dou2").fadeOut();
+        $("#dou3").fadeOut();
+        $("#dou4").fadeOut();
+        $("#dou5").fadeOut();
+        $("#full").fadeIn();
+
+
+
+
+
+    });
+
+
+});

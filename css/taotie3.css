@@ -84,3 +84,26 @@
     width: 80px;
     cursor: pointer;
 }
+
+#eat {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 150px;
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+#full {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 500px;
+    color: orange;
+    font-family: 'Aa方萌 (非商业使用)';
+    font-size: 30px;
+    font-weight: 500;
+}
