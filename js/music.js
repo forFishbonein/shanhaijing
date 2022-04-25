@@ -10,7 +10,6 @@ window.onload = function() {
     var flag = 1; //开启音乐
     var music = document.getElementById('music');
     var rallback = document.getElementById('rallback');
-    music.play();
     rallback.onclick = function() {
         if(flag == 1) {
             music.pause(); /*音乐关闭*/

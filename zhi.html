@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="jquery-ui-1.13.1.custom/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.min.css">
     <script src="js/zhi.js"></script>
@@ -13,7 +12,7 @@
             font-family: 'Aa方萌 (非商业使用)';
             src: url('font-style/字体管家方萌.ttf');
         }
-        
+
         @font-face {
             font-family: 'SONG';
             src: url('font-style/AaHeiSong.ttf');
@@ -23,6 +22,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/PerfectLoad.js"></script>
+    <script>
+        $(function () {
+            $.MyCommon.PageLoading({ sleep: 500 });
+        })
+    </script>
 </head>
 
 <body>
@@ -42,7 +48,7 @@
 				<img id="rallback2" src="music/img/l.png"></img>
 			</div>
 		</div>
-        
+
         <div class="container1">
             <p>啥？你喊我啊</p>
             <p>你好！我是<span>豸</span></p>
