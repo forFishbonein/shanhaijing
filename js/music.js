@@ -7,7 +7,7 @@ window.onload = function() {
         audioPlay.pause()
         audioPlay.load()
     }, 10)
-    $(document).pjax('#main')
+
     // 这里使用了微信自带的WeixinJSBridgeReady事件
     document.addEventListener('WeixinJSBridgeReady', function() {
         document.getElementById('music').play()
