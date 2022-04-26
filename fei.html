@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <link rel="icon" href="imags/tao.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/fei.css">
     <style>
@@ -14,8 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountains and Seas Sutra</title>
 </head>
-<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/fei.js"></script>
+<script type="text/javascript" src="js/PerfectLoad.js"></script>
+<script>
+    $(function () {
+        $.MyCommon.PageLoading({ sleep: 500 });
+    })
+</script>
 
 <body>
     <div id="container">
@@ -34,7 +40,7 @@
 				<img id="rallback2" src="music/img/l.png"></img>
 			</div>
 		</div>
-        
+
         <div class="container1">
             <p>你好呀！</p>
             <p>我的名字叫<span>蜚</span></p>

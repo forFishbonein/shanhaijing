@@ -13,6 +13,13 @@
             src: url('font-style/AaHeiSong.ttf');
         }
     </style>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/PerfectLoad.js"></script>
+        <script>
+            $(function () {
+                $.MyCommon.PageLoading({ sleep: 500 });
+            })
+        </script>
 </head>
 <body>
     <div id="container">
@@ -31,7 +38,7 @@
 				<img id="rallback2" src="music/img/l.png">
 			</div>
 		</div>
-        
+
         <div class="container1">
             <div><img src="imags/word/fei.png" alt=""></div>
             <div><img src="imags/head/fei.png" alt=""></div>
