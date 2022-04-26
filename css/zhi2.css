@@ -47,10 +47,64 @@
     transform: scale(1.2);
 }
 
+.word-container {
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 70px;
+    background: url("../imags/word2/back5.jpg") no-repeat center center;
+    background-size: 100% 100%;
+
+    top:370px
+}
+.word {
+    width: 250px;
+    height: 100%;
+    margin: auto;
+}
+
+#word1,
+#word2,
+#word3,
+#word4,
+#word5 {
+    float: left;
+    width: 50px;
+    height: 60px;
+}
+
+#word1{
+    background: url("../imags/word2/word5-1.jpg") no-repeat center bottom;
+    background-size: 85% 60%;
+}
+
+#word2{
+    background: url("../imags/word2/word5-2.jpg") no-repeat center bottom;
+    background-size: 80% 60%;
+}
+
+#word3{
+    width: 45px;
+    background: url("../imags/word2/word5-3.jpg") no-repeat left bottom;
+    background-size: 60% 60%;
+}
+
+#word4{
+    width: 40px;
+    background: url("../imags/word2/word5-4.jpg") no-repeat left bottom;
+    background-size: 60% 60%;
+}
+
+#word5{
+    width: 40px;
+
+    background: url("../imags/word2/word5-5.jpg") no-repeat left bottom;
+    background-size: 60% 60%;
+}
 
 .container2{
     position: relative;
-    top:430px;
+    top:370px
 }
 .container2_1{
     margin: auto;

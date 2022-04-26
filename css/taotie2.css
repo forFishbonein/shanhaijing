@@ -48,19 +48,49 @@
 .container1>div:last-child:hover>img{
     transform: scale(1.2);
 }
-.word {
+.word-container {
     position: relative;
     margin: auto;
     width: 280px;
     height: 70px;
-    background-color: red;
+    background: url("../imags/word2/back1.png") no-repeat center center;
+    background-size: 100% 100%;
+
     top:370px
 }
+.word {
+    width: 240px;
+    height: 100%;
+    margin: auto;
+}
 
-.word div {
-    justify-content: space-between;
+#word1,
+#word2,
+#word3,
+#word4 {
     float: left;
-    background-color: aqua;
+    width: 60px;
+    height: 60px;
+}
+
+#word1{
+    background: url("../imags/word2/word1-1.jpg") no-repeat center bottom;
+    background-size: 100% 60%;
+}
+
+#word2{
+    background: url("../imags/word2/word1-2.jpg") no-repeat center bottom;
+    background-size: 100% 60%;
+}
+
+#word3{
+    background: url("../imags/word2/word1-3.jpg") no-repeat center bottom;
+    background-size: 100% 60%;
+}
+
+#word4{
+    background: url("../imags/word2/word1-4.jpg") no-repeat center bottom;
+    background-size: 100% 60%;
 }
 
 .container2{
