@@ -48,11 +48,24 @@
 .container1>div:last-child:hover>img{
     transform: scale(1.2);
 }
+.word {
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 70px;
+    background-color: red;
+    top:370px
+}
 
+.word div {
+    justify-content: space-between;
+    float: left;
+    background-color: aqua;
+}
 
 .container2{
     position: relative;
-    top:360px
+    top:370px
 }
 .container2_1{
     margin: auto;

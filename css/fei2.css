@@ -13,11 +13,13 @@
     /* border: 1px solid rgb(240, 7, 7); */
     position: relative;
     border-radius: 30px;
-}  
+}
+
 /* .container1{
     width: 500px;
     height: 400px; 
 } */
+
 .container1>div{
     position: absolute;
 }
@@ -51,7 +53,7 @@
 
 .container2{
     position: relative;
-    top:360px
+    top:430px
 }
 .container2_1{
     margin: auto;
