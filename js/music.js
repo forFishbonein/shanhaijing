@@ -1,19 +1,19 @@
 window.onload = function() {
-    let audioPlay = document.getElementById('music')
+    let audioPlay = document.getElementById('music');
 
-    audioPlay.play()
+    audioPlay.play();
 
     setTimeout(() => {
-        audioPlay.pause()
-        audioPlay.load()
+        audioPlay.pause();
+        audioPlay.load();
     }, 10)
 
     // 这里使用了微信自带的WeixinJSBridgeReady事件
     document.addEventListener('WeixinJSBridgeReady', function() {
-        document.getElementById('music').play()
+        document.getElementById('music').play();
     })
     document.addEventListener('WeixinJSBridgeReady', function() {
-        document.getElementById('music2').play()
+        document.getElementById('music2').play();
     })
     /*右上角音乐及图标*/
     var flag = 1; //开启音乐

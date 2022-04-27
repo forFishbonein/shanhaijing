@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountains and Seas Sutra</title>
+    <title>山海经</title>
     <link rel="stylesheet" href="css/jiao2.css">
     <style>
         @font-face {
@@ -15,6 +15,7 @@
     </style>
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="js/PerfectLoad.js"></script>
+        <script src="js/word.js"></script>
         <script>
             $(function () {
                 $.MyCommon.PageLoading({ sleep: 500 });
@@ -27,7 +28,7 @@
 		<div class="u-audio">
 			<audio src="music/bmxh.mp3" autoplay="autoplay" id="music" preload="auto" loop="loop"></audio>
 			<div id="page1">
-				<img id="rallback" src="music/img/m.png" style="width: 60px;height: 60px;"></img>
+				<img id="rallback" src="music/img/m.png" style="width: 60px;height: 60px;">
 			</div>
 		</div>
         <script type="text/javascript" src="js/music.js"></script>
@@ -35,13 +36,22 @@
 		<div class="u-audio2">
 			<audio src="music/saying/jiao2.mp3" id="music2" autoplay="autoplay" preload="auto"></audio>
 			<div id="page2">
-				<img id="rallback2" src="music/img/l.png"></img>
+				<img id="rallback2" src="music/img/l.png">
 			</div>
 		</div>
 
         <div class="container1">
             <div><img src="imags/word/jiao.png" alt=""></div>
             <div><img src="imags/head/jiao.png" alt=""></div>
+        </div>
+        <div class="word-container">
+            <div class="word">
+                <div id="word1"></div>
+                <div id="word2"></div>
+                <div id="word3"></div>
+                <div id="word4"></div>
+
+            </div>
         </div>
         <div class="container2">
             <div class="container2_1">

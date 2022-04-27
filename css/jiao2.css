@@ -47,11 +47,54 @@
 .container1>div:last-child:hover>img{
     transform: scale(1.2);
 }
+.word-container {
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 70px;
+    background: url("../imags/word2/back4.jpg") no-repeat center center;
+    background-size: 100% 100%;
 
+    top:370px
+}
+.word {
+    width: 240px;
+    height: 100%;
+    margin: auto;
+}
+
+#word1,
+#word2,
+#word3,
+#word4 {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+#word1{
+    background: url("../imags/word2/word7-1.jpg") no-repeat center bottom;
+    background-size: 90% 60%;
+}
+
+#word2{
+    background: url("../imags/word2/word7-2.jpg") no-repeat center bottom;
+    background-size: 90% 60%;
+}
+
+#word3{
+    background: url("../imags/word2/word7-3.jpg") no-repeat center bottom;
+    background-size: 90% 60%;
+}
+
+#word4{
+    background: url("../imags/word2/word7-4.jpg") no-repeat center bottom;
+    background-size: 90% 60%;
+}
 
 .container2{
     position: relative;
-    top:360px
+    top:370px
 }
 .container2_1{
     margin: auto;
